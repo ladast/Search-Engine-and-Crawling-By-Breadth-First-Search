@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, h6 { text-align: left }
+
+/* background should be transparent, but WebTV has a bug */
+h1, h2, h3 { color: #005A9C; background: white }
+h1 { font: 170% sans-serif }
+h2 { font: 140% sans-serif }
+h3 { font: 120% sans-serif }
+h4 { font: bold 100% sans-serif }
+h5 { font: italic 100% sans-serif }
+h6 { font: small-caps 100% sans-serif }
+
+
+span#navigation
+{
+	float:right;
+	width:150px;
+	margin-left: 10px;
+/*
+	padding: 0;	
+	border: 1px solid #DDDDDD;
+*/
+}
+
+ul#navigation {
+/*	font-size: 0.8em; 
+*/
+	display: block;
+	font-weight: normal;
+	padding: 0;
+	margin: 0 0 0;
+	list-style: none;
+	width: 140;
+}
+
+ul#navigation li{
+	display: block;
+   font-size: 100%;
+	width: 140;
+	border: 1px solid #DDDDDD;
+	background: #EEEEEE;
+/*
+	*/
+}
+
+ul#navigation li:hover {
+/*
+*/
+	width: 140;
+	text-decoration: none;
+	background-color:#99CCCC;
+}
+
+ul#navigation a {
+	text-decoration: none;
+	padding-left: 5;
+	margin: 1;
+	width: 100%;
+/*
+	padding-top: 0;
+	padding-bottom: 0;
+*/	
+}
+
+ul#navigation a:hover {
+/*	width: 109;
+*/	text-decoration: none;
+	background-color:#99CCCC
+}
+
+
+
+
+/* Fieldsets */
+fieldset {
+    padding: .5em;
+    background: white;
+    border: 1px dotted #005A9C;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: .5em;
+}
+
+fieldset legend {
+    color: #fff;
+    background-color: #005A9C;
+    font-size: smaller;
+    padding: .1ex .5ex;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+}
+
+
+input {
+    vertical-align: middle;
+}
+
+input.reset {
+    text-align: center;
+}
+
+input.default {
+    text-align: center;
+    font-weight: bold;
+}

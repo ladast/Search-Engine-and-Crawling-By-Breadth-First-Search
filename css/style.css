@@ -1,0 +1,141 @@
+@charset "utf-8";
+body {
+ 	 font-size        : 11px;
+ 	 font-family      : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-image: url(../images/desai_02.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	background-image: url(../images/desai_08.jpg);
+	background-repeat: repeat-y;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper #header {
+	background-image: url(../images/desai_04.jpg);
+	height: 135px;
+	width: 850px;
+}
+#wrapper #leftcontent {
+	float: left;
+	width: 165px;
+	padding-right: 5px;
+	padding-left: 20px;
+}
+#wrapper #rightcontent {
+	float: left;
+	width: 540px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#wrapper #clearer {
+	clear: both;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#wrapper #footer {
+	font-size: 10px;
+	color: #000000;
+	background-image: url(../images/desai_10.jpg);
+	text-align: center;
+	height: 25px;
+	width: 850px;
+}
+#wrapper #menugambar {
+	position: relative;
+	top: 5px;
+	left: 30px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 520px;
+	height:100px;
+	background-image: url(../images/header_baru.gif);
+	background-repeat: repeat-x;
+}
+#wrapper #menuutama {
+	position: relative;
+	top: 90px;
+	left: 30px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 780px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #996633;
+}
+
+.border_button3 { border-top:solid 1px;
+				 border-bottom:solid 1px;
+				 border-left:solid 1px;
+				 border-right:solid 1px;
+				 font-color:blue;
+				 background-color:#666666;
+				 color:#FFFFFF;
+				  }	
+
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #265180;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+
+.border_button2 { border-top:solid 1px;
+				 border-bottom:solid 1px;
+				 border-left:solid 1px;
+				 border-right:solid 1px;
+				 font-color:blue;
+				 background-color:#666666;
+				 color:#FFFFFF;
+				  }
+				  
+/* Syle the search button. Settings of line-height, font-size, text-indent used to hide submit value in IE */
+#submit {
+	cursor:pointer;
+	width:70px;
+	height: 31px;
+	line-height:0;
+	font-size:0;
+	text-indent:-999px;
+	color: transparent;
+	background: url(../img/ico-search.png) no-repeat #4d90fe center;
+	border: 1px solid #3079ED;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+/* Style the search button hover state */
+#submit:hover {
+	background: url(../img/ico-search.png) no-repeat center #357AE8;
+	border: 1px solid #2F5BB7;
+}
+
